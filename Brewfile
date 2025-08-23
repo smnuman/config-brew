@@ -16,6 +16,8 @@ brew "git-crypt"
 brew "git-delta"
 # Improved top (interactive process viewer)
 brew "htop"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
