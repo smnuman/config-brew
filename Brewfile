@@ -33,6 +33,8 @@ cask "font-geist-mono-nerd-font"
 cask "textmate"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 vscode "adbayb.vscode-theme-honeymoon"
 vscode "adpyke.codesnap"
 vscode "akamud.vscode-theme-onedark"
