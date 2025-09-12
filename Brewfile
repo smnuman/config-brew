@@ -16,6 +16,8 @@ brew "git-crypt"
 brew "git-delta"
 # Improved top (interactive process viewer)
 brew "htop"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Display directories as trees (with optional color/HTML output)
