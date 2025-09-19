@@ -6,6 +6,8 @@ brew "coreutils"
 brew "curl"
 # Utility to configure multi-display resolutions and arrangements
 brew "displayplacer"
+# Fast and simple Node.js version manager
+brew "fnm"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -18,6 +20,8 @@ brew "git-delta"
 brew "htop"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Platform built on V8 to build network applications
+brew "node"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Display directories as trees (with optional color/HTML output)
