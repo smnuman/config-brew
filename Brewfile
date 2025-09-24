@@ -28,6 +28,8 @@ brew "shellcheck"
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Enable Windows-like alt-tab
