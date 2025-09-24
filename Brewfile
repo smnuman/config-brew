@@ -6,6 +6,8 @@ brew "coreutils"
 brew "curl"
 # Utility to configure multi-display resolutions and arrangements
 brew "displayplacer"
+# Modern, maintained replacement for ls
+brew "eza"
 # Fast and simple Node.js version manager
 brew "fnm"
 # GitHub command-line tool
