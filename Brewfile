@@ -26,8 +26,6 @@ brew "htop"
 brew "neovim"
 # Platform built on V8 to build network applications
 brew "node"
-# Static analysis and lint tool, for (ba)sh scripts
-brew "shellcheck"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
