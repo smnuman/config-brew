@@ -22,6 +22,8 @@ brew "git-crypt"
 brew "git-delta"
 # Open-source GitLab command-line tool
 brew "glab"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
 # Improved top (interactive process viewer)
 brew "htop"
 # Ambitious Vim-fork focused on extensibility and agility
