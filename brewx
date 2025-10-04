@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+# --- Config ---
+# export BREWDOTS="$HOME/.config/brew"
+BREWFILE="$BREWDOTS/Brewfile"
+LOGDIR="$BREWDOTS/logs"
+UTILS="$BREWDOTS/utils"
+
+mkdir -p "$LOGDIR" "$UTILS"
+
+# --- Logging ---
+LOG_FILE="$LOGDIR/brew-activity.log"
+
+log() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] brew $*" >> "$LOG_FILE"
+}
+
+# --- save current state before running brew ---
+before_list="/tmp/brew_before_$$.txt"
+after_list="/tmp/brew_after_$$.txt"
+\brew list > "$before_list"
+
+# --- Run actual brew ---
+\brew "$@"
+STATUS=$?
+
+# --- save current state after running brew ---
+\brew list > "$after_list"
+
+# --- If successful, log and update Brewfile ---
+if [[ $STATUS -eq 0 ]]; then
+    log "$*"
+
+    case "$1" in
+        fetch|install|uninstall|upgrade|reinstall|tap|untap|pin|unpin|remove|autoremove|cleanup|completions)
+            \brew bundle dump --file="$BREWFILE" --force --describe
+            bash "$UTILS/git-track.sh"
+            echo "🔍 Diff:"
+            ;;
+    esac
+else
+    log "FAILED: brew $* (exit $STATUS)"
+fi
+
+diff -u "$before_list" "$after_list" || true
+
+rm -f "$before_list" "$after_list"
+exit $STATUS
+# --- End of script ---
