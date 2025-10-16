@@ -38,6 +38,8 @@ brew "neovim"
 brew "nnn"
 # Platform built on V8 to build network applications
 brew "node"
+# Terminal multiplexer
+brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
