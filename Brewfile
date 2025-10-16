@@ -1,5 +1,7 @@
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Versatile and fast Unicode/ASCII/ANSI graphics renderer
+brew "chafa"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Get a file from an HTTP, HTTPS or FTP server
@@ -26,14 +28,22 @@ brew "glab"
 brew "gnupg"
 # Improved top (interactive process viewer)
 brew "htop"
+# Terminal file manager
+brew "lf"
+# Unified display of technical and tag data for audio/video
+brew "media-info"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Tiny, lightning fast, feature-packed file manager
+brew "nnn"
 # Platform built on V8 to build network applications
 brew "node"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
 brew "wget"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # UNIX shell (command interpreter)
