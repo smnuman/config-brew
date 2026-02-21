@@ -1,3 +1,6 @@
+tap "antoniorodr/memo"
+tap "hudochenkov/sshpass"
+tap "steipete/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Versatile and fast Unicode/ASCII/ANSI graphics renderer
@@ -14,6 +17,10 @@ brew "eza"
 brew "fnm"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -24,8 +31,12 @@ brew "git-crypt"
 brew "git-delta"
 # Open-source GitLab command-line tool
 brew "glab"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# GNU grep, egrep and fgrep
+brew "grep"
 # Improved top (interactive process viewer)
 brew "htop"
 # Terminal file manager
@@ -36,8 +47,12 @@ brew "media-info"
 brew "neovim"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
-# Platform built on V8 to build network applications
-brew "node"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node@22"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# AI coding agent, built for the terminal
+brew "opencode"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -50,8 +65,31 @@ brew "yazi"
 brew "zoxide"
 # UNIX shell (command interpreter)
 brew "zsh"
+# CLI app to manage your Apple Notes and Apple reminders
+brew "antoniorodr/memo/memo"
+brew "hudochenkov/sshpass/sshpass"
+# Grep the GIF. Stick the landing
+brew "steipete/tap/gifgrep"
+# Google CLI for Gmail, Calendar, Drive, and Contacts
+brew "steipete/tap/gogcli"
+# Modern Go client + CLI for the Google Places API (New)
+brew "steipete/tap/goplaces"
+# Fast CLI for Apple Reminders
+brew "steipete/tap/remindctl"
+# Spectral visualization CLI for audio files
+brew "steipete/tap/songsee"
+# Link → clean text → summary
+brew "steipete/tap/summarize"
+# WhatsApp CLI built on whatsmeow
+brew "steipete/tap/wacli"
 # Enable Windows-like alt-tab
 cask "alt-tab"
+# AI dictation app
+cask "amical"
+# Autonomous multi-session AI coding
+cask "auto-claude"
+# Menu bar app for monitoring AI coding assistant usage quotas
+cask "claudebar"
 cask "font-geist"
 cask "font-geist-mono"
 cask "font-geist-mono-nerd-font"
@@ -70,25 +108,24 @@ vscode "be5invis.vscode-custom-css"
 vscode "bierner.markdown-preview-github-styles"
 vscode "bmewburn.vscode-intelephense-client"
 vscode "bradlc.vscode-tailwindcss"
+vscode "britesnow.vscode-toggle-quotes"
 vscode "catppuccin.catppuccin-vsc"
 vscode "catppuccin.catppuccin-vsc-icons"
 vscode "danielsanmedium.dscodegpt"
 vscode "dbaeumer.vscode-eslint"
 vscode "drcika.apc-extension"
+vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "erikkralj.vscode-grok"
 vscode "esbenp.prettier-vscode"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "google.geminicodeassist"
 vscode "hoovercj.vscode-settings-cycler"
 vscode "kilocode.kilo-code"
 vscode "kiriko.fig-unreleased"
 vscode "mikaelkristiansson87.react-theme-vscode"
-vscode "ms-dotnettools.csdevkit"
-vscode "ms-dotnettools.csharp"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-dotnettools.vscode-dotnet-runtime"
-vscode "ms-dotnettools.vscodeintellicode-csharp"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
@@ -96,12 +133,11 @@ vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.vscode-websearchforcopilot"
 vscode "openai.chatgpt"
+vscode "pustelto.bracketeer"
 vscode "rimuruchan.vscode-fix-checksums-next"
 vscode "rooveterinaryinc.roo-cline"
 vscode "sudoaugustin.tailpile"
 vscode "tomoki1207.pdf"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
 vscode "vscode-icons-team.vscode-icons"
 vscode "wassimdev.wassimdev-vscode-deepseek"
 vscode "zarifprogrammer.tailwind-snippets"

@@ -17,5 +17,5 @@ plugins/
 *.log
 *.timestamp
 *.zip
-*
-!.gitignore
+.env
+
