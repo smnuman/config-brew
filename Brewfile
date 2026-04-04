@@ -1,5 +1,6 @@
 tap "antoniorodr/memo"
 tap "hudochenkov/sshpass"
+tap "oven-sh/bun"
 tap "steipete/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -68,9 +69,11 @@ brew "zsh"
 # CLI app to manage your Apple Notes and Apple reminders
 brew "antoniorodr/memo/memo"
 brew "hudochenkov/sshpass/sshpass"
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun"
 # Grep the GIF. Stick the landing
 brew "steipete/tap/gifgrep"
-# Google CLI for Gmail, Calendar, Drive, and Contacts
+# Google CLI for Gmail, Calendar, Drive, Docs, Sheets, and more
 brew "steipete/tap/gogcli"
 # Modern Go client + CLI for the Google Places API (New)
 brew "steipete/tap/goplaces"
