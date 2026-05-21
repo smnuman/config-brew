@@ -1,5 +1,6 @@
 tap "antoniorodr/memo"
 tap "hudochenkov/sshpass"
+tap "openclaw/tap"
 tap "oven-sh/bun"
 tap "steipete/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -54,6 +55,8 @@ brew "node@22"
 brew "ripgrep"
 # AI coding agent, built for the terminal
 brew "opencode"
+# Multi-modal AI tool to extract and summarize content
+brew "summarize"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -69,22 +72,20 @@ brew "zsh"
 # CLI app to manage your Apple Notes and Apple reminders
 brew "antoniorodr/memo/memo"
 brew "hudochenkov/sshpass/sshpass"
+# Google CLI for Gmail, Calendar, Drive, Docs, Sheets, and more
+brew "openclaw/tap/gogcli"
+# Modern Go client + CLI for the Google Places API (New).
+brew "openclaw/tap/goplaces"
+# WhatsApp CLI built on whatsmeow
+brew "openclaw/tap/wacli"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
 # Grep the GIF. Stick the landing
 brew "steipete/tap/gifgrep"
-# Google CLI for Gmail, Calendar, Drive, Docs, Sheets, and more
-brew "steipete/tap/gogcli"
-# Modern Go client + CLI for the Google Places API (New)
-brew "steipete/tap/goplaces"
 # Fast CLI for Apple Reminders
 brew "steipete/tap/remindctl"
 # Spectral visualization CLI for audio files
 brew "steipete/tap/songsee"
-# Link → clean text → summary
-brew "steipete/tap/summarize"
-# WhatsApp CLI built on whatsmeow
-brew "steipete/tap/wacli"
 # Enable Windows-like alt-tab
 cask "alt-tab"
 # AI dictation app
@@ -144,3 +145,10 @@ vscode "tomoki1207.pdf"
 vscode "vscode-icons-team.vscode-icons"
 vscode "wassimdev.wassimdev-vscode-deepseek"
 vscode "zarifprogrammer.tailwind-snippets"
+npm "@anthropic-ai/claude-code"
+npm "@openai/codex"
+npm "agent-browser"
+npm "ccusage"
+npm "clawhub"
+npm "oh-my-claude-sisyphus"
+npm "openclaw-mcp"
