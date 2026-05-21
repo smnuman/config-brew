@@ -72,6 +72,8 @@ brew "zoxide"
 brew "zsh"
 # CLI app to manage your Apple Notes and Apple reminders
 brew "antoniorodr/memo/memo"
+# Terminal-native coding agent for DeepSeek V4
+brew "hmbown/deepseek-tui/deepseek-tui"
 brew "hudochenkov/sshpass/sshpass"
 # Google CLI for Gmail, Calendar, Drive, Docs, Sheets, and more
 brew "openclaw/tap/gogcli"
