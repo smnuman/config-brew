@@ -1,4 +1,5 @@
 tap "antoniorodr/memo"
+tap "hmbown/deepseek-tui"
 tap "hudochenkov/sshpass"
 tap "openclaw/tap"
 tap "oven-sh/bun"
