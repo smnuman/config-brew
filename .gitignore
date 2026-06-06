@@ -19,3 +19,6 @@ plugins/
 *.zip
 .env
 
+
+# oh-my-claudecode runtime state (agent replays, HUD cache, session tracking)
+.omc/
